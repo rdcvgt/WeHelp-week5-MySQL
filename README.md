@@ -58,9 +58,10 @@ update member set name = 'test2' where username = 'test';
 
 ## 要求四
 ### 取得 member 資料表中，總共有幾筆資料
-　```sql
- select count(*) from member;
- ```
+
+```sql
+select count(*) from member;
+```
  - ![截圖 2022-10-17 下午3 56 41](https://user-images.githubusercontent.com/75289113/196120908-dd980594-e1fc-4ed9-97b3-e3630686e985.png)
 
 ### 取得 member 資料表中，所有會員 follower_count 欄位的總和。
